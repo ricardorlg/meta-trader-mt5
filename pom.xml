@@ -143,9 +143,6 @@
 					<systemPropertyVariables>
 						<webdriver.driver>${webdriver.driver}</webdriver.driver>
 					</systemPropertyVariables>
-					<parallel>classes</parallel>
-					<threadCount>2</threadCount>
-					<!-- <forkCount>2</forkCount> -->
 					<reuseForks>true</reuseForks>
 				</configuration>
 				<executions>
